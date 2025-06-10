@@ -1,0 +1,37 @@
+{{- if .Values.cronjob.enabled }}
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: {{ .Release.Name }}-scheduled
+  labels:
+    app: {{ .Release.Name }}
+spec:
+  schedule: {{ .Values.cronjob.schedule | quote }}
+  concurrencyPolicy: {{ .Values.cronjob.concurrencyPolicy }}
+  successfulJobsHistoryLimit: {{ .Values.cronjob.successfulJobsHistoryLimit }}
+  failedJobsHistoryLimit: {{ .Values.cronjob.failedJobsHistoryLimit }}
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          securityContext:
+            {{- toYaml .Values.podSecurityContext | nindent 12 }}
+          containers:
+            - name: {{ .Chart.Name }}
+              securityContext:
+                {{- toYaml .Values.securityContext | nindent 16 }}
+              image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+              imagePullPolicy: {{ .Values.image.pullPolicy }}
+              command:
+                - /bin/sh
+                - -c
+                - |
+                  curl -X POST http://localhost:{{ .Values.service.port }}/ingest \
+                    -H "Content-Type: application/json" \
+                    -d '{"bucket": "{{ .Values.env | where (eq "name" "S3_BUCKET") | first | get "value" }}", "key": "*"}'
+              resources:
+                {{- toYaml .Values.resources | nindent 16 }}
+              env:
+                {{- toYaml .Values.env | nindent 16 }}
+          restartPolicy: OnFailure
+{{- end }} 

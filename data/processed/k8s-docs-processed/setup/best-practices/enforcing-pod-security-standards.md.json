@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "setup",
+  "path": "setup/best-practices/enforcing-pod-security-standards.md",
+  "format": "markdown"
+}

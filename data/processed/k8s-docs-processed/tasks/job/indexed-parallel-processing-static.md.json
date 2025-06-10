@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tasks",
+  "path": "tasks/job/indexed-parallel-processing-static.md",
+  "format": "markdown"
+}

@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tasks",
+  "path": "tasks/debug/debug-cluster/audit.md",
+  "format": "markdown"
+}

@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "concepts",
+  "path": "concepts/overview/kubernetes-api.md",
+  "format": "markdown"
+}

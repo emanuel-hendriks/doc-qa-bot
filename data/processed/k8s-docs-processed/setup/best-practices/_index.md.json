@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "setup",
+  "path": "setup/best-practices/_index.md",
+  "format": "markdown"
+}

@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "reference",
+  "path": "reference/access-authn-authz/validating-admission-policy.md",
+  "format": "markdown"
+}

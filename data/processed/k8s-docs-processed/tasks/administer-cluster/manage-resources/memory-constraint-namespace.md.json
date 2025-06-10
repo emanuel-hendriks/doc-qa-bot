@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tasks",
+  "path": "tasks/administer-cluster/manage-resources/memory-constraint-namespace.md",
+  "format": "markdown"
+}

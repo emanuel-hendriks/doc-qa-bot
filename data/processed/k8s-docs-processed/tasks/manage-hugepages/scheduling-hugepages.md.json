@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tasks",
+  "path": "tasks/manage-hugepages/scheduling-hugepages.md",
+  "format": "markdown"
+}

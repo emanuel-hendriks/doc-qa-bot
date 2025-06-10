@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tasks",
+  "path": "tasks/manage-daemon/create-daemon-set.md",
+  "format": "markdown"
+}

@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "reference",
+  "path": "reference/glossary/pod-disruption-budget.md",
+  "format": "markdown"
+}

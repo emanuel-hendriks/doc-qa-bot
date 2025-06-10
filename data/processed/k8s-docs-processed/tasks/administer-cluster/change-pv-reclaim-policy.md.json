@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tasks",
+  "path": "tasks/administer-cluster/change-pv-reclaim-policy.md",
+  "format": "markdown"
+}

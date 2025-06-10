@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tasks",
+  "path": "tasks/job/pod-failure-policy.md",
+  "format": "markdown"
+}

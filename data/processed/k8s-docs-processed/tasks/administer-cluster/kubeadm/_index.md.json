@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tasks",
+  "path": "tasks/administer-cluster/kubeadm/_index.md",
+  "format": "markdown"
+}

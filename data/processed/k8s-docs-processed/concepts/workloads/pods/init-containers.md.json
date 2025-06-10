@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "concepts",
+  "path": "concepts/workloads/pods/init-containers.md",
+  "format": "markdown"
+}

@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tasks",
+  "path": "tasks/extend-kubernetes/http-proxy-access-api.md",
+  "format": "markdown"
+}

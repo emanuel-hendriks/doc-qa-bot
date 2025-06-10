@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tutorials",
+  "path": "tutorials/stateless-application/expose-external-ip-address.md",
+  "format": "markdown"
+}

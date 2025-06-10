@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "reference",
+  "path": "reference/setup-tools/kubeadm/generated/kubeadm_upgrade/kubeadm_upgrade_apply_phase_addon_kube-proxy.md",
+  "format": "markdown"
+}

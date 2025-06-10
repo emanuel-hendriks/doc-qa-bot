@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "setup",
+  "path": "setup/production-environment/tools/kubeadm/setup-ha-etcd-with-kubeadm.md",
+  "format": "markdown"
+}

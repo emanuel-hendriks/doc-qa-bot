@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tutorials",
+  "path": "tutorials/configuration/updating-configuration-via-a-configmap.md",
+  "format": "markdown"
+}

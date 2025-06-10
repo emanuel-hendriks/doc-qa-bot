@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tasks",
+  "path": "tasks/network/reconfigure-default-service-ip-ranges.md",
+  "format": "markdown"
+}

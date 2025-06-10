@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tasks",
+  "path": "tasks/access-application-cluster/communicate-containers-same-pod-shared-volume.md",
+  "format": "markdown"
+}

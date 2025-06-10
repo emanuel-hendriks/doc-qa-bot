@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tasks",
+  "path": "tasks/administer-cluster/migrating-from-dockershim/troubleshooting-cni-plugin-related-errors.md",
+  "format": "markdown"
+}

@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "concepts",
+  "path": "concepts/architecture/control-plane-node-communication.md",
+  "format": "markdown"
+}

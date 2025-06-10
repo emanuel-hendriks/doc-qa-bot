@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tasks",
+  "path": "tasks/administer-cluster/use-cascading-deletion.md",
+  "format": "markdown"
+}

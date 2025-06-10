@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tasks",
+  "path": "tasks/debug/debug-cluster/resource-usage-monitoring.md",
+  "format": "markdown"
+}

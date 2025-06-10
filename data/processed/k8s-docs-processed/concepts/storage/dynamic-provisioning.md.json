@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "concepts",
+  "path": "concepts/storage/dynamic-provisioning.md",
+  "format": "markdown"
+}

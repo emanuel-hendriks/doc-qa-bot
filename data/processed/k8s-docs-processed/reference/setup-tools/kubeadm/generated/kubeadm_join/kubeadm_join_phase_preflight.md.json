@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "reference",
+  "path": "reference/setup-tools/kubeadm/generated/kubeadm_join/kubeadm_join_phase_preflight.md",
+  "format": "markdown"
+}

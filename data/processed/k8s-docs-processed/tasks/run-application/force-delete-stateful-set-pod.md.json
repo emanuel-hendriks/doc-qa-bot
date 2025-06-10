@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tasks",
+  "path": "tasks/run-application/force-delete-stateful-set-pod.md",
+  "format": "markdown"
+}

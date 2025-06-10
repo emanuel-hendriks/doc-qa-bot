@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "reference",
+  "path": "reference/node/kubelet-config-directory-merging.md",
+  "format": "markdown"
+}

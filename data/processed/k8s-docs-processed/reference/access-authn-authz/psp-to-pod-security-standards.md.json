@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "reference",
+  "path": "reference/access-authn-authz/psp-to-pod-security-standards.md",
+  "format": "markdown"
+}

@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tutorials",
+  "path": "tutorials/configuration/configure-redis-using-configmap.md",
+  "format": "markdown"
+}

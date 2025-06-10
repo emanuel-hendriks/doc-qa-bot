@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "concepts",
+  "path": "concepts/storage/volumes.md",
+  "format": "markdown"
+}

@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "concepts",
+  "path": "concepts/workloads/pods/user-namespaces.md",
+  "format": "markdown"
+}

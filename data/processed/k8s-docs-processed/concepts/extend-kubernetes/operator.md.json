@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "concepts",
+  "path": "concepts/extend-kubernetes/operator.md",
+  "format": "markdown"
+}

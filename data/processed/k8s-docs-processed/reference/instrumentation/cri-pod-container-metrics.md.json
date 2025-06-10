@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "reference",
+  "path": "reference/instrumentation/cri-pod-container-metrics.md",
+  "format": "markdown"
+}

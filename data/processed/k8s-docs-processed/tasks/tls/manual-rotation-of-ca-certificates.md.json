@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tasks",
+  "path": "tasks/tls/manual-rotation-of-ca-certificates.md",
+  "format": "markdown"
+}

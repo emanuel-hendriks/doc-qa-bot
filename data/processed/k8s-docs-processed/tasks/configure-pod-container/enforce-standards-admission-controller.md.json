@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tasks",
+  "path": "tasks/configure-pod-container/enforce-standards-admission-controller.md",
+  "format": "markdown"
+}

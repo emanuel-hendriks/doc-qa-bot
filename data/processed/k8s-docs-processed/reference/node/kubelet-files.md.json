@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "reference",
+  "path": "reference/node/kubelet-files.md",
+  "format": "markdown"
+}

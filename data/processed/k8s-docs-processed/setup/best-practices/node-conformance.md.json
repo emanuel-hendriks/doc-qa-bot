@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "setup",
+  "path": "setup/best-practices/node-conformance.md",
+  "format": "markdown"
+}

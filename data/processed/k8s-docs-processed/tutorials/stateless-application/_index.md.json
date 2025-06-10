@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tutorials",
+  "path": "tutorials/stateless-application/_index.md",
+  "format": "markdown"
+}

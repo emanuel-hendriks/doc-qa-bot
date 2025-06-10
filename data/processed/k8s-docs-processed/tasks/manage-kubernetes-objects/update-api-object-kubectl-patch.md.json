@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tasks",
+  "path": "tasks/manage-kubernetes-objects/update-api-object-kubectl-patch.md",
+  "format": "markdown"
+}

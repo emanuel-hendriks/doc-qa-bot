@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "concepts",
+  "path": "concepts/scheduling-eviction/dynamic-resource-allocation.md",
+  "format": "markdown"
+}

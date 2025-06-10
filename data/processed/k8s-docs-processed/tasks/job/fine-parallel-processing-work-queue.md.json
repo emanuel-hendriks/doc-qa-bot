@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tasks",
+  "path": "tasks/job/fine-parallel-processing-work-queue.md",
+  "format": "markdown"
+}

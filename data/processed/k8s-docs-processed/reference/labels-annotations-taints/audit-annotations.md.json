@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "reference",
+  "path": "reference/labels-annotations-taints/audit-annotations.md",
+  "format": "markdown"
+}

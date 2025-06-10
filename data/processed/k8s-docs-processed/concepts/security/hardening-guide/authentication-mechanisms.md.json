@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "concepts",
+  "path": "concepts/security/hardening-guide/authentication-mechanisms.md",
+  "format": "markdown"
+}

@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "concepts",
+  "path": "concepts/policy/resource-quotas.md",
+  "format": "markdown"
+}

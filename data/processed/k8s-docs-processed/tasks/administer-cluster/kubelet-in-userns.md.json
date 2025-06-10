@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tasks",
+  "path": "tasks/administer-cluster/kubelet-in-userns.md",
+  "format": "markdown"
+}

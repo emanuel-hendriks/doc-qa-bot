@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "reference",
+  "path": "reference/kubectl/generated/kubectl_rollout/kubectl_rollout_pause.md",
+  "format": "markdown"
+}

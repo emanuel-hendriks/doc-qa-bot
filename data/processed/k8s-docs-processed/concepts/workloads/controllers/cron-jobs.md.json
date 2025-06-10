@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "concepts",
+  "path": "concepts/workloads/controllers/cron-jobs.md",
+  "format": "markdown"
+}

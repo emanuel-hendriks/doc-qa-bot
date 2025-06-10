@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tasks",
+  "path": "tasks/extend-kubernetes/setup-konnectivity.md",
+  "format": "markdown"
+}

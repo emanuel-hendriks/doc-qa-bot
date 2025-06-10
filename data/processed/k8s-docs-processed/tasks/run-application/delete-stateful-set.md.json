@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tasks",
+  "path": "tasks/run-application/delete-stateful-set.md",
+  "format": "markdown"
+}

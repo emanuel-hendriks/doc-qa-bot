@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "reference",
+  "path": "reference/kubernetes-api/extend-resources/mutating-webhook-configuration-v1.md",
+  "format": "markdown"
+}

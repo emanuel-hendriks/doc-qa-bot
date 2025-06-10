@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tasks",
+  "path": "tasks/run-application/_index.md",
+  "format": "markdown"
+}

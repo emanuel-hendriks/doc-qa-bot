@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tasks",
+  "path": "tasks/administer-cluster/network-policy-provider/cilium-network-policy.md",
+  "format": "markdown"
+}

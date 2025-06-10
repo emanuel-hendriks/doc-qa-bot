@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tasks",
+  "path": "tasks/debug/debug-application/_index.md",
+  "format": "markdown"
+}

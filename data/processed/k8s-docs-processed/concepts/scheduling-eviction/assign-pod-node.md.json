@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "concepts",
+  "path": "concepts/scheduling-eviction/assign-pod-node.md",
+  "format": "markdown"
+}

@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "reference",
+  "path": "reference/instrumentation/node-metrics.md",
+  "format": "markdown"
+}

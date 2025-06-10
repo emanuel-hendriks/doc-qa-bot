@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tasks",
+  "path": "tasks/network/validate-dual-stack.md",
+  "format": "markdown"
+}

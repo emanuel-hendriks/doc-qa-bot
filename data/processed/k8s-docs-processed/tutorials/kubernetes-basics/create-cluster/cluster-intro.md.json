@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tutorials",
+  "path": "tutorials/kubernetes-basics/create-cluster/cluster-intro.md",
+  "format": "markdown"
+}

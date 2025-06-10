@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tasks",
+  "path": "tasks/manage-daemon/_index.md",
+  "format": "markdown"
+}

@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "concepts",
+  "path": "concepts/security/rbac-good-practices.md",
+  "format": "markdown"
+}

@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "reference",
+  "path": "reference/setup-tools/kubeadm/generated/kubeadm_token/kubeadm_token_generate.md",
+  "format": "markdown"
+}

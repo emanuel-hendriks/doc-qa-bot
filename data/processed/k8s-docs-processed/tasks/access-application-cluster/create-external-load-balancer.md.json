@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tasks",
+  "path": "tasks/access-application-cluster/create-external-load-balancer.md",
+  "format": "markdown"
+}

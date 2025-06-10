@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tasks",
+  "path": "tasks/extend-kubernetes/configure-multiple-schedulers.md",
+  "format": "markdown"
+}

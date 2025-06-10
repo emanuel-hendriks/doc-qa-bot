@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "reference",
+  "path": "reference/glossary/kube-scheduler.md",
+  "format": "markdown"
+}

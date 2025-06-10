@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tasks",
+  "path": "tasks/administer-cluster/change-pv-access-mode-readwriteoncepod.md",
+  "format": "markdown"
+}

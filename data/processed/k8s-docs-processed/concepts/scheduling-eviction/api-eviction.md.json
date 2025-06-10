@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "concepts",
+  "path": "concepts/scheduling-eviction/api-eviction.md",
+  "format": "markdown"
+}

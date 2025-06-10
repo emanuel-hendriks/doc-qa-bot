@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tasks",
+  "path": "tasks/configure-pod-container/configure-projected-volume-storage.md",
+  "format": "markdown"
+}

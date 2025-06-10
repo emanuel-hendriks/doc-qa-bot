@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "setup",
+  "path": "setup/best-practices/cluster-large.md",
+  "format": "markdown"
+}

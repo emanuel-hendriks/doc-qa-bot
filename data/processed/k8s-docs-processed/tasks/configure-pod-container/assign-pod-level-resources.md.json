@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tasks",
+  "path": "tasks/configure-pod-container/assign-pod-level-resources.md",
+  "format": "markdown"
+}

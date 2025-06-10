@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "concepts",
+  "path": "concepts/services-networking/ingress.md",
+  "format": "markdown"
+}

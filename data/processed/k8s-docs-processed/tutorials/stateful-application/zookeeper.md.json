@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tutorials",
+  "path": "tutorials/stateful-application/zookeeper.md",
+  "format": "markdown"
+}

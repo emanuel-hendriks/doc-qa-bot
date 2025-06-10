@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "reference",
+  "path": "reference/kubectl/quick-reference.md",
+  "format": "markdown"
+}

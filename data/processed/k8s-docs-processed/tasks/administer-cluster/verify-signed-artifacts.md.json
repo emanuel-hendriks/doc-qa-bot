@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tasks",
+  "path": "tasks/administer-cluster/verify-signed-artifacts.md",
+  "format": "markdown"
+}

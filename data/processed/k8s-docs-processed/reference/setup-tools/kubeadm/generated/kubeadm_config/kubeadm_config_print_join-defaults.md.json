@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "reference",
+  "path": "reference/setup-tools/kubeadm/generated/kubeadm_config/kubeadm_config_print_join-defaults.md",
+  "format": "markdown"
+}

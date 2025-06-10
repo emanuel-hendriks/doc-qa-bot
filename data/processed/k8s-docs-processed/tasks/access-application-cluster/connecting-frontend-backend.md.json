@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tasks",
+  "path": "tasks/access-application-cluster/connecting-frontend-backend.md",
+  "format": "markdown"
+}

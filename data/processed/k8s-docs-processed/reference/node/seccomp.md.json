@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "reference",
+  "path": "reference/node/seccomp.md",
+  "format": "markdown"
+}

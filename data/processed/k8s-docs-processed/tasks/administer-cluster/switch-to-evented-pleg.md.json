@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tasks",
+  "path": "tasks/administer-cluster/switch-to-evented-pleg.md",
+  "format": "markdown"
+}

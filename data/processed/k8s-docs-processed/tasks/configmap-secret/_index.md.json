@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tasks",
+  "path": "tasks/configmap-secret/_index.md",
+  "format": "markdown"
+}

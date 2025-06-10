@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tasks",
+  "path": "tasks/run-application/run-stateless-application-deployment.md",
+  "format": "markdown"
+}

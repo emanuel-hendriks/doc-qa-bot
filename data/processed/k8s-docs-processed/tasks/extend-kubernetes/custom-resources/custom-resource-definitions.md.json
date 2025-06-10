@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tasks",
+  "path": "tasks/extend-kubernetes/custom-resources/custom-resource-definitions.md",
+  "format": "markdown"
+}

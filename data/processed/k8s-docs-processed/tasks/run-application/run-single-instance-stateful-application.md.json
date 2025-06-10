@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tasks",
+  "path": "tasks/run-application/run-single-instance-stateful-application.md",
+  "format": "markdown"
+}

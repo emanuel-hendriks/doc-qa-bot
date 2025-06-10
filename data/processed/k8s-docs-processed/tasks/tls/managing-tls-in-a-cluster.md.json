@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tasks",
+  "path": "tasks/tls/managing-tls-in-a-cluster.md",
+  "format": "markdown"
+}

@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tasks",
+  "path": "tasks/administer-cluster/migrating-from-dockershim/_index.md",
+  "format": "markdown"
+}

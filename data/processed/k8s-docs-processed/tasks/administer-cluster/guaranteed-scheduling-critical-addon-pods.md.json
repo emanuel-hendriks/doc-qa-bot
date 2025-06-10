@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tasks",
+  "path": "tasks/administer-cluster/guaranteed-scheduling-critical-addon-pods.md",
+  "format": "markdown"
+}

@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "reference",
+  "path": "reference/access-authn-authz/kubelet-authn-authz.md",
+  "format": "markdown"
+}

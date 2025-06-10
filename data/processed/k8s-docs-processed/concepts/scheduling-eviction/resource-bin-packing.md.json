@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "concepts",
+  "path": "concepts/scheduling-eviction/resource-bin-packing.md",
+  "format": "markdown"
+}

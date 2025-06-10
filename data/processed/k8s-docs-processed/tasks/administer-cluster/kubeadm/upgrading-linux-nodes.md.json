@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tasks",
+  "path": "tasks/administer-cluster/kubeadm/upgrading-linux-nodes.md",
+  "format": "markdown"
+}

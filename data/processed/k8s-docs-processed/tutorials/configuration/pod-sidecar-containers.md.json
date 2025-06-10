@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tutorials",
+  "path": "tutorials/configuration/pod-sidecar-containers.md",
+  "format": "markdown"
+}

@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tasks",
+  "path": "tasks/debug/debug-cluster/kubectl-node-debug.md",
+  "format": "markdown"
+}

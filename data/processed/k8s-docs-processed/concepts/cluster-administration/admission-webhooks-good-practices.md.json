@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "concepts",
+  "path": "concepts/cluster-administration/admission-webhooks-good-practices.md",
+  "format": "markdown"
+}

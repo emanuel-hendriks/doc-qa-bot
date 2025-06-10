@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tasks",
+  "path": "tasks/access-application-cluster/configure-access-multiple-clusters.md",
+  "format": "markdown"
+}

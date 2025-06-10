@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tutorials",
+  "path": "tutorials/stateful-application/mysql-wordpress-persistent-volume.md",
+  "format": "markdown"
+}

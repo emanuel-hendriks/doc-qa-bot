@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "concepts",
+  "path": "concepts/scheduling-eviction/topology-spread-constraints.md",
+  "format": "markdown"
+}

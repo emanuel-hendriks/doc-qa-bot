@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tutorials",
+  "path": "tutorials/services/pods-and-endpoint-termination-flow.md",
+  "format": "markdown"
+}

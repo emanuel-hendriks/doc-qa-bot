@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "concepts",
+  "path": "concepts/security/api-server-bypass-risks.md",
+  "format": "markdown"
+}

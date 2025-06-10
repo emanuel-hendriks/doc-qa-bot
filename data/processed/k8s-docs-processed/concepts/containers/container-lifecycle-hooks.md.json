@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "concepts",
+  "path": "concepts/containers/container-lifecycle-hooks.md",
+  "format": "markdown"
+}

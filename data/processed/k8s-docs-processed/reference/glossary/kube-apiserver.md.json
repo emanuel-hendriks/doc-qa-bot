@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "reference",
+  "path": "reference/glossary/kube-apiserver.md",
+  "format": "markdown"
+}

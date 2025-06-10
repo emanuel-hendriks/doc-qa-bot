@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "reference",
+  "path": "reference/kubectl/_index.md",
+  "format": "markdown"
+}

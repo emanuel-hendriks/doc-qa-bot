@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tasks",
+  "path": "tasks/extend-kubectl/kubectl-plugins.md",
+  "format": "markdown"
+}

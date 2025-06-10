@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tasks",
+  "path": "tasks/administer-cluster/migrating-from-dockershim/migrating-telemetry-and-security-agents.md",
+  "format": "markdown"
+}

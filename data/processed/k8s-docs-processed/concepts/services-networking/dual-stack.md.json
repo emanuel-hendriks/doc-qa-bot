@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "concepts",
+  "path": "concepts/services-networking/dual-stack.md",
+  "format": "markdown"
+}

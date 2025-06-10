@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "concepts",
+  "path": "concepts/workloads/pods/sidecar-containers.md",
+  "format": "markdown"
+}

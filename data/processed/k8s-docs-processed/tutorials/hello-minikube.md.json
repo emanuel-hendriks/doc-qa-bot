@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tutorials",
+  "path": "tutorials/hello-minikube.md",
+  "format": "markdown"
+}

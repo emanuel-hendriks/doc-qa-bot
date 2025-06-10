@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tasks",
+  "path": "tasks/configure-pod-container/enforce-standards-namespace-labels.md",
+  "format": "markdown"
+}

@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "reference",
+  "path": "reference/kubernetes-api/common-definitions/node-selector-requirement.md",
+  "format": "markdown"
+}

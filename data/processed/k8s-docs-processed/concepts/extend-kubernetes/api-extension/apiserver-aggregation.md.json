@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "concepts",
+  "path": "concepts/extend-kubernetes/api-extension/apiserver-aggregation.md",
+  "format": "markdown"
+}

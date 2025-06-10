@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tasks",
+  "path": "tasks/manage-kubernetes-objects/_index.md",
+  "format": "markdown"
+}

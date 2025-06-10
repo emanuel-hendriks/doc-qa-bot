@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tasks",
+  "path": "tasks/run-application/run-replicated-stateful-application.md",
+  "format": "markdown"
+}

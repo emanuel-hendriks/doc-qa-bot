@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tasks",
+  "path": "tasks/tools/included/kubectl-convert-overview.md",
+  "format": "markdown"
+}

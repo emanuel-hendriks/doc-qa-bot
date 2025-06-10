@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tasks",
+  "path": "tasks/debug/debug-cluster/troubleshoot-kubectl.md",
+  "format": "markdown"
+}

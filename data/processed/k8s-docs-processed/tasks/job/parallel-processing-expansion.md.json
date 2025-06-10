@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tasks",
+  "path": "tasks/job/parallel-processing-expansion.md",
+  "format": "markdown"
+}

@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "concepts",
+  "path": "concepts/security/pod-security-standards.md",
+  "format": "markdown"
+}

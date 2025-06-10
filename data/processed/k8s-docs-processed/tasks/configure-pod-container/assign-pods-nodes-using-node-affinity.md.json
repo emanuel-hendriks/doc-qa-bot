@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tasks",
+  "path": "tasks/configure-pod-container/assign-pods-nodes-using-node-affinity.md",
+  "format": "markdown"
+}

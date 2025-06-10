@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tutorials",
+  "path": "tutorials/security/apparmor.md",
+  "format": "markdown"
+}

@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "concepts",
+  "path": "concepts/security/linux-kernel-security-constraints.md",
+  "format": "markdown"
+}

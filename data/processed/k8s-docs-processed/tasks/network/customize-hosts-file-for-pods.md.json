@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "tasks",
+  "path": "tasks/network/customize-hosts-file-for-pods.md",
+  "format": "markdown"
+}

@@ -1,0 +1,6 @@
+{
+  "source": "kubernetes",
+  "category": "reference",
+  "path": "reference/command-line-tools-reference/feature-gates/MinDomainsInPodTopologySpread.md",
+  "format": "markdown"
+}

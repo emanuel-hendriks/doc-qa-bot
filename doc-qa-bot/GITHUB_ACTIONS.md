@@ -2,10 +2,9 @@
 
 This document provides an overview of the GitHub Actions workflows implemented across the Doc QA Bot project repositories. For detailed information about each repository's CI/CD pipeline, please refer to the following documentation:
 
-- [Application Code CI/CD Pipeline](../application-code/docs/CICD.md)
-- [Infrastructure Code CI/CD Pipeline](../infrastructure-code/docs/CICD.md)
-- [Kubernetes Helm Charts CI/CD Pipeline](../kubernetes-helm-charts/docs/CICD.md)
-
+- [Application Code](https://github.com/emanuel-hendriks/doc-qa-bot-application-code.git): Core application logic and services
+- [Infrastructure Code](https://github.com/emanuel-hendriks/doc-qa-bot-infrastructure-code.git): AWS infrastructure and resources
+- [Kubernetes Helm Charts](https://github.com/emanuel-hendriks/doc-qa-bot-kubernetes-helm-charts.git): Kubernetes deployments and configurations
 ## 1. Introduction to GitHub Actions and GitOps
 
 GitHub Actions provide a flexible and powerful way to automate workflows directly within your GitHub repositories. In a GitOps context, these actions are used to ensure that all changes to infrastructure or application code (defined declaratively in Git) are automatically validated, built, and eventually applied to the target environments.

@@ -2,146 +2,137 @@
 
 A serverless knowledge bot that answers questions about documents with citations, powered by vector search and AWS Bedrock.
 
-## Architecture
+## Overview
 
-The system consists of two main microservices running on AWS EKS Fargate:
+This repository contains the application code for the Doc QA Bot. The infrastructure code is maintained in a separate repository: [doc-qa-bot-infrastructure](https://github.com/emanuel-hendriks/doc-qa-bot-infrastructure).
 
-### Components
+## Components
 
-1. **Ingestor Service**
-   - Kubernetes CronJob (scheduled, also invocable ad-hoc)
-   - Processes documents from S3 buckets
-   - Extracts and cleans text (PDF, HTML, Markdown)
-   - Chunks text into ~500-token passages
-   - Generates embeddings using Bedrock Titan Embed
-   - Stores passages in PostgreSQL with pgvector
+### 1. Ingestor Service (`src/ingestor/`)
 
-2. **Chat API Service**
-   - Kubernetes Deployment (≥2 replicas)
-   - Handles chat requests via REST API or WebSocket
-   - Uses vector similarity search to find relevant passages
-   - Generates answers using Bedrock Claude 3 Sonnet
-   - Returns answers with citations
+A Python service that processes documents and prepares them for querying:
 
-### Infrastructure
+- **Features**:
+  - Document processing (PDF, HTML, Markdown)
+  - Text extraction and cleaning
+  - Semantic chunking
+  - Vector embedding generation
+  - Database storage
 
-- **Compute**: AWS EKS with Fargate
-- **Database**: RDS PostgreSQL with pgvector
-- **Storage**: S3 for document storage
-- **AI/ML**: AWS Bedrock for embeddings and LLM
-- **Networking**: VPC with public/private subnets, ALB
-- **Security**: IAM roles, security groups, TLS encryption
+- **Dependencies**:
+  - FastAPI
+  - PyPDF2
+  - BeautifulSoup4
+  - AWS SDK (boto3)
+  - psycopg2-binary
+  - pgvector
 
-## Prerequisites
+### 2. Chat API Service (`src/chat-api/`)
 
-- AWS Account with appropriate permissions
-- Terraform v1.0+
-- kubectl configured
-- Docker
+A Python service that handles user queries and generates responses:
+
+- **Features**:
+  - REST API and WebSocket endpoints
+  - Vector similarity search
+  - LLM integration with Bedrock
+  - Citation generation
+  - Response streaming
+
+- **Dependencies**:
+  - FastAPI
+  - WebSockets
+  - AWS SDK (boto3)
+  - psycopg2-binary
+  - pgvector
+
+## Development
+
+### Prerequisites
+
 - Python 3.8+
+- Docker
+- AWS CLI configured
+- Access to AWS Bedrock
 
-## Quick Start
+### Local Development
 
-1. **Clone the repository**
+1. **Set up virtual environment**
    ```bash
-   git clone git@github.com:emanuel-hendriks/doc-qa-bot.git
-   cd doc-qa-bot
+   python -m venv venv
+   source venv/bin/activate  # or `venv\Scripts\activate` on Windows
+   pip install -r requirements.txt
    ```
 
-2. **Initialize Terraform**
+2. **Configure environment variables**
    ```bash
-   cd infrastructure/terraform
-   terraform init
+   cp .env.example .env
+   # Edit .env with your configuration
    ```
 
-3. **Configure variables**
-   - Copy `terraform.tfvars.example` to `terraform.tfvars`
-   - Update the variables with your values
-
-4. **Deploy infrastructure**
+3. **Run tests**
    ```bash
-   terraform apply
+   pytest
    ```
 
-5. **Build and push Docker images**
+4. **Build Docker images**
    ```bash
-   # Build images
    docker build -t doc-qa-bot/ingestor:latest src/ingestor
    docker build -t doc-qa-bot/chat-api:latest src/chat-api
-
-   # Push to ECR
-   aws ecr get-login-password | docker login --username AWS --password-stdin $ECR_REPO
-   docker push $ECR_REPO/ingestor:latest
-   docker push $ECR_REPO/chat-api:latest
    ```
 
-6. **Deploy to Kubernetes**
+### API Documentation
+
+#### Chat API Endpoints
+
+1. **POST /chat**
    ```bash
-   kubectl apply -f infrastructure/kubernetes/
+   curl -X POST https://your-domain/chat \
+     -H "Content-Type: application/json" \
+     -H "x-api-key: your-api-key" \
+     -d '{"question": "Your question here"}'
    ```
 
-## Usage
+   Response:
+   ```json
+   {
+     "answer": "The answer to your question...",
+     "citations": [
+       {
+         "file": "source-document.pdf",
+         "page": 42,
+         "snippet": "Relevant text snippet..."
+       }
+     ]
+   }
+   ```
 
-### Adding Documents
+2. **WebSocket /ws/chat**
+   - Connects to streaming chat endpoint
+   - Receives real-time updates
 
-1. Upload documents to the S3 bucket:
+#### Ingestor API Endpoints
+
+1. **POST /ingest**
    ```bash
-   aws s3 cp your-document.pdf s3://your-docs-bucket/
+   curl -X POST https://your-domain/ingest \
+     -H "Content-Type: application/json" \
+     -H "x-api-key: your-api-key" \
+     -d '{"bucket": "your-bucket", "key": "document.pdf"}'
    ```
 
-2. Trigger ingestion:
-   ```bash
-   kubectl create job --from=cronjob/ingestor ingestor-manual-001
-   ```
+## Contributing
 
-### Asking Questions
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create a Pull Request
 
-Send a POST request to the chat API:
-```bash
-curl -X POST https://your-domain/chat \
-  -H "Content-Type: application/json" \
-  -H "x-api-key: your-api-key" \
-  -d '{"question": "Your question here"}'
-```
+## Testing
 
-Response format:
-```json
-{
-  "answer": "The answer to your question...",
-  "citations": [
-    {
-      "file": "source-document.pdf",
-      "page": 42,
-      "snippet": "Relevant text snippet..."
-    }
-  ]
-}
-```
-
-## Cost Optimization
-
-The infrastructure is designed to be cost-effective:
-- RDS Serverless v2 for database
-- EKS Fargate for compute
-- Auto-scaling based on demand
-- S3 lifecycle policies for storage optimization
-
-Estimated monthly cost: ~€80-85
-
-## Security
-
-- All components run in private subnets
-- TLS encryption for all communications
-- IAM roles for service accounts (IRSA)
-- Security groups with least privilege
-- Optional WAF protection
-
-## Maintenance
-
-- Regular security updates
-- Database backups
-- Log monitoring via CloudWatch
-- Health checks and auto-recovery
+- Unit tests: `pytest tests/unit`
+- Integration tests: `pytest tests/integration`
+- End-to-end tests: `pytest tests/e2e`
 
 ## License
 
